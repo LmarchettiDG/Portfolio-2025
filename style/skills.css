@@ -37,6 +37,7 @@
 .skills__flex-item, .skills__flex-item--diseño{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: rgb(24 24 24 / 95%);
     box-shadow: 4px 5px 8px #00000094;
     border-radius: 5%;
@@ -57,9 +58,9 @@
 
 
 .skills__flex-item i{
-    width: 100%;
     font-size: 120px;
     transition: all 0.2s;
+    align-items: center;
 }
 
 .skills__flex-item--diseño img {
@@ -112,7 +113,6 @@
 
 .skills__flex-item span, .skills__flex-item--diseño span {
     font-family: "Montserrat", sans-serif;
-    align-self: flex-end;
     font-size: 18px;
     transition: all 0.1s;
 }
