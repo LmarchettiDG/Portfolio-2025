@@ -1,0 +1,35 @@
+.proximamente__header{
+    padding-bottom: 0;
+}
+
+.proximamente__main{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proximamente__container{
+    width: 100%;
+}
+
+.proximamente__container i{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.proximamente__titulo{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    font-family: 'Raleway';
+    letter-spacing: 10px;
+    font-weight: 300;
+}

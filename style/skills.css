@@ -1,0 +1,132 @@
+/* SKILLS */ 
+
+.main__conocimientos{
+    background-image: url("../img/misc/textura-1.png");
+}
+
+.main__conocimientos--diseño{
+    padding: 1em;
+}
+
+.skills__titulo{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2em;
+    text-shadow: 3px 3px 5px black;
+}
+
+.skills__titulo-principal, .titulo{
+    color: #191919;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: linear-gradient(180deg, rgba(226, 146, 0, 1) 0%, rgba(255, 165, 0, 1) 100%);
+    padding: 10px 0;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+    box-shadow: 4px 5px 8px #000000f0;
+}
+
+
+
+.skills__flex-item, .skills__flex-item--diseño{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24 24 24 / 95%);
+    box-shadow: 4px 5px 8px #00000094;
+    border-radius: 5%;
+    padding: 10px;
+    justify-content: space-between;
+    transform: scale(1.0);
+    transition: all 0.5s;
+    color: white;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.skills__flex-item:hover, .skills__flex-item--diseño:hover{
+    transform: scale(1.2);
+}
+
+
+
+.skills__flex-item i{
+    width: 100%;
+    font-size: 120px;
+    transition: all 0.2s;
+}
+
+.skills__flex-item--diseño img {
+    width: 120px;
+}
+
+.skills__flex-item:hover i {
+    font-size: 185px;
+    text-align: center;
+}
+
+.skills__flex-item--diseño img{
+    transition: all 0.2s;
+}
+
+
+.skills__flex-item--diseño:hover img{
+    width: 100%;
+}
+
+.skills__flex-item--diseño span{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.skills__flex-item--diseño:hover span{
+    opacity: 0;
+}
+
+.skills__flex-item:first-child:hover i{
+   color: #f06529;
+}
+
+.skills__flex-item:nth-child(2):hover i{
+    color: #2965f1
+}
+
+.skills__flex-item:nth-child(3):hover i{
+    color: #f0db4f;
+}
+
+.skills__flex-item:nth-child(4):hover i{
+    color: #f34f29;
+}
+
+.skills__flex-item:nth-child(5):hover i {
+    color: #f34f29;
+}
+
+
+.skills__flex-item span, .skills__flex-item--diseño span {
+    font-family: "Montserrat", sans-serif;
+    align-self: flex-end;
+    font-size: 18px;
+    transition: all 0.1s;
+}
+
+.skills__flex-item:hover span{
+    opacity: 0;
+}
+
+.skills__flex-item--diseño{
+    background-color: #f3f3f3e8;
+    color: black
+}
+
+
+
+
+

@@ -1,0 +1,48 @@
+.carousel{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit:contain
+}
+
+#prev{
+    background-color: black;
+    border-radius: 50%;
+    height: 2em;
+    margin: auto 0;
+    left: 2em;
+    padding: .5em;
+    width: 2em;
+}
+
+#next{
+    background-color: black;
+    border-radius: 50%;
+    height: 2em;
+    margin:auto 0;
+    padding: .5em;
+    right: 2em;
+    width: 2em;
+}
+
+@media (max-width: 1024px) {
+    #carouselExampleIndicators{
+        margin-top: 3em;
+    }
+
+    .carousel-item img{
+        max-height: 640px;
+    }
+}

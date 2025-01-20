@@ -1,0 +1,125 @@
+/* CONTACTO */
+footer{
+    background-color:  rgb(0 0 0 / 89%);
+    border-top: double 20px orange  
+}
+
+.contacto__contenedor-form-redes{
+    gap: 2rem;
+}
+
+.contacto h3 {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 2rem;
+    background: #f69f00;
+    margin: 1em auto;
+    width: 30%;
+    color: #343434;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+.contacto p {
+    font-family: 'Kumbh Sans';
+    color: white;
+    border: 6px double  orange;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 12px;
+    
+    
+}
+
+.contacto form {
+    width: 80%;
+    border-radius: 24px;
+    padding: 2em 10%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.884) ;
+}
+
+.contacto__formulario__contenedor label{
+    margin-bottom: 0.5em;
+    font-family: 'Kumbh Sans';
+    transition: all .5s;
+    order: -1;
+}
+
+.contacto__formulario__contenedor input, .contacto__formulario__contenedor textarea {
+    padding: 0.8em;
+    border: none;
+    border-bottom: 2px solid #ababab;
+    background-color: transparent;
+    transition: all 0.5s;
+    position: relative;
+    resize: none;
+   
+}
+
+.contacto__formulario__contenedor input:hover, .contacto__formulario__contenedor textarea:hover{
+    background: none;
+   
+}
+
+.contacto__formulario__contenedor span {
+    background-color: orange;
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    bottom: 8px;
+    transition: all 1s ease-in-out;
+    z-index:  1000;
+}
+
+.contacto__formulario__contenedor > .contacto__formulario__contenedor__input:focus ~ span{
+    width: 97.5%;
+}
+
+.contacto__formulario__contenedor > .contacto__formulario__contenedor__input:focus  + label{
+    color: orange;
+    font-size: 1.05em;
+}
+
+.contacto__formulario__contenedor input:focus, .contacto__formulario__contenedor textarea:focus{
+    outline: none;
+}
+
+.contacto button{
+    padding: 1.5em;
+    border-radius: 12px;
+    background-color: orange;
+    font-family: 'Kumbh Sans';
+    width: 80%;
+    margin: 0 10% ;
+    border: none;
+}
+
+.contacto__formulario--submited{
+    font-size: 1em;
+    font-family: 'Raleway';
+    order: -1;
+    background: orange;
+    width: 100%;
+    border-radius: 0.3em;
+    text-align: center;
+    padding: 0.5em;
+    transition: all 1s;
+    transform: scaleY(0);
+}
+
+.contenedor-redes{
+    width:20%;
+    transform: scale(0.8);
+}
+
+.redes__links img{
+    margin-bottom: 0.5em;
+    width: 40px
+}
+
+.redes__links span{
+    color: white;
+    font-family: 'Kumbh Sans';
+}
+
