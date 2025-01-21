@@ -65,7 +65,7 @@ header{
 }
 
 .quien-soy__enlaces{
-    width: 40%;
+    width: 45%;
     justify-content: space-around;
     display: flex;
 }
@@ -87,6 +87,10 @@ header{
 .sobre-mi__parrafo{
     opacity: 1;
     font-family: "Raleway";
+    line-height: 1.3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
 }
 
 /* MAIN SKILLS */

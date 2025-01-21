@@ -47,6 +47,7 @@ header{
     list-style: none;
     backface-visibility: hidden;
     position: relative;
+    padding: .4rem;
 }
 
 
@@ -61,7 +62,7 @@ header{
 
 .nav__item a:hover{
     color: orange;
-    transform: scale(1.2);
+    transform: scale(1.1);
     
 }
 
@@ -73,24 +74,24 @@ header{
     list-style: none;
     position: relative;
     padding: 0;
+    width: 50%;
 }
 
 .proyectos__item{
-    padding: 5px;
+    padding: 3px;
     background: #101010;
-    border: 1px solid #2f2f2f;
+    border-top: 1px solid #2f2f2f;
     border-bottom: 1px solid #656565;
     border-radius: 2px;
 }
 
 .proyectos__item a{
-    margin-bottom: .7em;
     transition: all .5s;
     font-weight: 200;
 }
 
 .proyectos__item:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all .5s;
 }
 
@@ -113,7 +114,7 @@ header{
      position: absolute;
      right: -40px;
      font-size: 1.5em;
-     
+     transition: .4s;     
 }
 
 

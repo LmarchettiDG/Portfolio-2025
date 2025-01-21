@@ -39,7 +39,7 @@
     .nav__lista{
         flex-direction: column;
         width: 80%;
-        height: 30vh;
+        height: auto;
         transition: all 1s;
         opacity: 0;
         height: 0;
@@ -55,7 +55,6 @@
 
     .nav__item--link{
         display: none;
-        padding-bottom: .5em;
     }
 
     .proyectos__item-container {
@@ -104,7 +103,7 @@
     }
 
     .quien-soy__tipografia h1, .quien-soy__tipografia h3{
-      
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -127,6 +126,8 @@
         width: 100%;
         margin-top: auto ;
     }
+
+   
 
     .quien-soy__detalles{
         text-align: center;

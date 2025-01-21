@@ -17,11 +17,12 @@ const handleProyectSelect = ()=>{
     proyectosFlecha.addEventListener("click", ()=>{
         proyectosItemList.forEach( e =>{
             if(e.style.display == "none" || e.style.display == ""){
-                e.style.display = "flex"
+                e.style.display = "flex";
+                proyectosFlecha.style.transform = "rotate(180deg)";
                 setTimeout(()=>e.style.opacity = 1, 200)
             } else{
-                e.style.opacity = 0
-                setTimeout(()=> e.style.display = "none", 600)
+                proyectosFlecha.style.transform = "rotate(360deg)";               
+                e.style.display = "none";
             }
         })
     })
@@ -65,9 +66,10 @@ const hideAndShowNavItemLinks = () => {
 
 navMenuButton.addEventListener("click",abrirYCerrarNavMenu =()=>{
     if(navList.style.opacity == 0 && !ready){
+
         navList.style.transition = "height 0.5s, opacity 1s"
         navList.style.opacity = 1
-        navList.style.height = "30vh"
+        navList.style.height = "auto"
         ready = true;
         hideAndShowNavItemLinks();
     } else  {
@@ -93,8 +95,8 @@ const urls = ["#sobre-mi", "#web", "#design", "#formacion", "#proyectos", "#cont
 
 const navItemsLinks = document.querySelectorAll(".nav__item a")
 
-for (let i=0;i<navItems.length;i++){
-        navItems[i].addEventListener("click", ()=>{
+for (let i=0;i<navItemsLinks.length;i++){
+        navItemsLinks[i].addEventListener("click", ()=>{
         if (ready && window.innerWidth <= 885){
             navMenuButton.click();
             setTimeout(()=>{
